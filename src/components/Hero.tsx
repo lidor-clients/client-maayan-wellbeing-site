@@ -17,14 +17,9 @@ export default function Hero() {
               היי, שמחה שדרכנו מצטלבות
             </h1>
 
-            <p className="text-xl text-gray-600 mb-4 leading-relaxed">
+            <p className="text-xl text-gray-600 mb-8 leading-relaxed">
               אני <span className="font-semibold text-sage-700">מעין</span>, מלווה נשים לחזור להקשבה פנימית,
               ומתוכה לשפר את הבריאות, איכות החיים והקשרים בחייהן.
-            </p>
-
-            <p className="text-lg text-gray-500 mb-8 leading-relaxed">
-              קלינאית תקשורת שיקומית (MA), מעל עשור בעבודה עם שיקום מוח,
-              מומחית לבריאות טבעית ופייס יוגה.
             </p>
 
             <div className="flex flex-wrap gap-4 mb-8">
