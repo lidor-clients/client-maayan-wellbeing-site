@@ -159,9 +159,8 @@ export default function Workshop() {
               </p>
               <Button
                 href="https://wa.me/972501234567?text=היי%20מעין%2C%20אשמח%20לשמוע%20עוד%20על%20סדנת%20Grow%20%26%20Glow"
-                variant="secondary"
                 size="lg"
-                className="bg-white text-sage-700 hover:bg-warm-100"
+                className="bg-white !text-sage-700 hover:bg-warm-100"
               >
                 אני רוצה להצטרף!
               </Button>

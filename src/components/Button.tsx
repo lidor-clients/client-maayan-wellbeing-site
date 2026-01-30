@@ -19,11 +19,11 @@ export default function Button({
   className = '',
   type = 'button',
 }: ButtonProps) {
-  const baseStyles = 'inline-flex items-center justify-center font-medium rounded-full transition-all duration-300 cursor-pointer';
+  const baseStyles = 'inline-flex items-center justify-center font-medium rounded-full transition-colors duration-300 cursor-pointer';
 
   const variants = {
-    primary: 'bg-sage-600 text-white hover:bg-sage-700 shadow-md hover:shadow-lg',
-    secondary: 'bg-blush-500 text-white hover:bg-blush-600 shadow-md hover:shadow-lg',
+    primary: 'bg-sage-600 text-white hover:bg-sage-700',
+    secondary: 'bg-blush-500 text-white hover:bg-blush-600',
     outline: 'border-2 border-sage-600 text-sage-700 hover:bg-sage-600 hover:text-white',
   };
 
